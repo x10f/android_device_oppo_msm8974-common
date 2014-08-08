@@ -172,7 +172,7 @@ PRODUCT_PACKAGES += \
 
 # Thermal config
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf
+    $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf
 
 # Torch
 PRODUCT_PACKAGES += \
@@ -250,7 +250,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     telephony.lteOnGsmDevice=1 \
     wifi.interface=wlan0 \
     wifi.supplicant_scan_interval=15 \
-    ro.qualcomm.perf.cores_online=2
+    ro.qualcomm.perf.cores_online=2 \
+    ro.telephony.call_ring.multiple=0
 
 # Permissions
 PRODUCT_COPY_FILES += \
