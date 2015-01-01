@@ -40,6 +40,8 @@ etc/firmware/venus.mdt
 
 # DRM
 bin/qseecomd
+etc/permissions/com.google.widevine.software.drm.xml
+framework/com.google.widevine.software.drm.jar
 lib/libQSEEComAPI.so:vendor/lib/libQSEEComAPI.so
 lib/libdrmdecrypt.so
 vendor/lib/libdrmdiag.so
@@ -58,7 +60,6 @@ vendor/lib/mediadrm/libwvdrmengine.so
 bin/loc_launcher
 bin/location-mq
 bin/lowi-server
-bin/gsiff_daemon
 bin/quipc_igsn
 bin/quipc_main
 bin/xtwifi-client
@@ -68,6 +69,7 @@ lib/libloc_api_v02.so
 lib/libloc_ds_api.so
 vendor/lib/hw/activity_recognition.msm8974.so
 vendor/lib/hw/flp.default.so
+vendor/lib/libalarmservice_jni.so
 vendor/lib/libasn1crt.so
 vendor/lib/libasn1crtx.so
 vendor/lib/libasn1cper.so
